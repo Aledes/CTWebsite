@@ -12,6 +12,7 @@
             /* CSS goes here! */
             *{
                 box-sizing: border-box;
+                font-family: sans-serif;
             }
             
             .container{
@@ -19,6 +20,39 @@
                 Padding-right: 30px;
                 Padding-left: 30px;
                 Margin: 0 auto; /* centers the element on page */
+            }
+            body{
+                color: black;
+                font-weight: 300;
+                Font-size: 16px;
+                Line-height: 22px;
+                Font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-sarif;
+            }
+            h1, h2, h3, h4{
+                color: #45a2da;
+            }
+            header a{
+                color:black;
+            }
+            header a:hover{
+                color:#45a2da;
+            }
+            footer a{
+                color:white;
+            }
+            footer{
+                background-color:black;
+            }
+            a{
+                text-decoration:none;
+            }
+            h2, h4{
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            nav{
+                text-align: right;
             }
         </style>
     </head>
@@ -33,27 +67,33 @@
                     <a href="apply.html">Apply Now</a>    
                 </nav>
         </header>
-
-        <article class="container">
-            <h1 id="id">Classes</h1>
-            <p>Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.
-            <a href="apply.html">Start your application...</a>
-            </p>
-        </article>
         
-        <article class="container">
-            <h1>Course Curriculum</h1>
-            <p>Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.
-            <a href="courses.html">View the Curriculum...</a>
-            </p>
-        </article>
+        <section class="container">
+            <article>
+                <h2>Classes</h2>
+                <p>Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.
+                <a href="apply.html">Start your application...</a>
+                </p>
+            </article>
+        </section>    
         
-        <article class="container">
-            <h1>Current Students</h1>
-            <p>Our current cohort consists of students from various backgrounds and knowledge about the IT industry.
-            <a href="students.html">View more on our students...</a>
-            </p>    
-        </article>
+        <section class="container">
+            <article>
+                <h2>Course Curriculum</h2>
+                <p>Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.
+                <a href="courses.html">View the Curriculum...</a>
+                </p>
+            </article>
+        </section>
+        
+        <section class="container">
+            <article>
+                <h2>Current Students</h2>
+                <p>Our current cohort consists of students from various backgrounds and knowledge about the IT industry.
+                <a href="students.html">View more on our students...</a>
+                </p>    
+            </article>
+        </section>
 
         <footer class="container">
             <nav class="menu">
