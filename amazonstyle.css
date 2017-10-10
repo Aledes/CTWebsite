@@ -1,0 +1,94 @@
+    * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin: auto;
+    }
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction:column;
+}
+.content{
+    flex: 1 0 auto;
+    padding: 5px;
+}
+header{
+    width:30%;
+}
+footer{
+    display: block;
+    margin: auto;
+    flex-shrink: 0;
+    padding:20px;
+    font-size: 12px;
+    text-align: center;
+}
+form label {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.box {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 25px;
+    width: 400px;
+}
+
+.button{
+    background: linear-gradient(yellow,goldenrod);
+    border: 2px solid lightgrey;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    
+}
+.button2{
+    background: linear-gradient(white, lightgrey);
+    border: 1px solid lightgrey;
+    padding: 8px;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight:400;
+}
+
+.forgotpass{
+    text-decoration:none;
+    font-size: 10px;
+    float:right;
+}
+
+input{
+    width: 100%;
+}
+input:hover{
+    border: 2px solid gold;
+}
+input:focus{
+    border: 2px solid gold;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline;
+}
+hr{
+    border:0;
+    height:0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
